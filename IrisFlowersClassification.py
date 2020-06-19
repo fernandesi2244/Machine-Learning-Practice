@@ -61,7 +61,7 @@ models = []
 models.append(('LR', LogisticRegression(solver = 'liblinear', multi_class = 'ovr')))    # Logistic Regression
 models.append(('LDA', LinearDiscriminantAnalysis()))                                    # Linear Discriminant Analysis
 models.append(('KNN', KNeighborsClassifier()))                                          # K-Nearest Neighbors
-models.append(('CART', DecisionTreeClassifier()))                                         # Classification and Regression Trees
+models.append(('CART', DecisionTreeClassifier()))                                       # Classification and Regression Trees
 models.append(('NB', GaussianNB()))                                                     # Gaussian Naive Bayes
 models.append(('SVM', SVC(gamma = 'auto')))                                             # Support Vector Machine
 
